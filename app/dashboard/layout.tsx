@@ -5,6 +5,8 @@ import SideNav from '@/app/ui/dashboard/sidenav';
  * A layout is something that can be used on a folder level. For example this nav bar does not have to always re-render when
  * a page renders again. This is a different way to handle than lit for sure.
  */
+
+export const experimental_ppr = true;
  
 const Layout = ({ children }: { children: React.ReactNode }) => {
   return (
